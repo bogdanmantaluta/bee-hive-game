@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && http-server -p 4200 -c-1 ./src",
+    "start": "npm run build && http-server -p 4200",
     "test": "npm run build && jest"
   },
   "devDependencies": {
