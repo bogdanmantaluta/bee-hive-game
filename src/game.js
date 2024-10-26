@@ -75,9 +75,7 @@ function createBees() {
         const beeCount = Math.floor(Math.random() * (max - min + 1)) + min;
         for (let i = 0; i < beeCount; i++) {
             const beeImg = document.createElement('img');
-            const baseUrl = window.location.pathname.split('/').slice(0, -1).join('/');
-            console.log(baseUrl);
-            beeImg.src = `${baseUrl}/../assets/bee.png`;
+            beeImg.src = '../assets/bee.png';
             beeImg.alt = 'bee';
             beeImg.classList.add('bee');
             const delay = Math.random() * 2;
