@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+#game-statistics::-webkit-scrollbar {
+    width: 10px;
+}
+
+#game-statistics::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 1px solid #3E2118;
+
+}
+
+body {
+    font-family: 'Molisa Delawere', sans-serif;
+    background: rgb(217, 132, 13);
+    background: linear-gradient(90deg, rgba(217, 132, 13, 1) 0%, rgba(254, 209, 49, 1) 50%, rgba(217, 132, 13, 1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #3E2118;
+}
+
+button {
+    background-color: rgb(217, 132, 13);
+    color: #3E2118;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: rgba(254, 209, 49, 1);
+}
+
+button:disabled {
+    background-color: rgb(99, 64, 15);
+}
+
+img{
+    object-fit: contain;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1em;
+}
+
+#main-content {
+    display: flex;
+}
+
+#game-container {
+    background-image: url("../assets/board_background.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 70vw;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+}
+
+#game-statistics {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #3E2118;
+    float: right;
+    width: 20vw;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+#game-statistics-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-statistics-container h2 {
+    text-align: center;
+}
+
+.statistic-row {
+    margin-top: 5px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.player-info {
+    margin-bottom: 20px;
+}
+
+#back-menu-button {
+    background-color: #3E2118;
+    color: rgb(217, 132, 13);
+    padding: 15px 20px;
+    margin-top: 15px;
+
+}
+
+#player-info-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#player img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+#enemy-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#game-menu {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#player-name {
+    min-width: 200px;
+    min-height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    outline: none;
+    background-color: rgb(217, 132, 13);
+    color: #3E2118;
+}
+
+#player-name-label {
+    color: rgb(217, 132, 13);
+}
+
+.menu-button {
+    width: 150px;
+}
+
+.health-bar{
+    width: 250px;
+    accent-color: rgba(254, 209, 49, 1);
+}
+
+.bee-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bee {
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.bee-boss {
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+}
+
+.bee {
+    max-width: 10vw;
+    max-height: 10vh
+}
+.health-bar-info{
+    color:rgb(217, 132, 13);
+    font-size:12px;
+}
+
+.bee-boss img {
+    max-width: 10vw;
+    max-height: 20vh;
+}
+
+#player {
+    position: relative;
+}
+
+.shake-animation {
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: hit;
+}
+
+@keyframes hit {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(10px, -5px);
+    }
+    50% {
+        transform: translate(-10px, 5px);
+    }
+    75% {
+        transform: translate(5px, -10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes floatOpposite {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-10px, 5px);
+    }
+    50% {
+        transform: translate(10px, -5px);
+    }
+    75% {
+        transform: translate(-5px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+

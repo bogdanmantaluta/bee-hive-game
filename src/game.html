@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Swarm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/molisa-delawere" rel="stylesheet">
+</head>
+<body>
+<h1>Bee Swarm</h1>
+<div id="main-content">
+    <div id="game-container">
+        <div id="player-info-container">
+            <span id="player-name"></span>
+            <div id="player">
+                <img alt="bear" src="../assets/bear.png">
+            </div>
+            <button id="hit-button">HIT</button>
+        </div>
+        <div id="enemy-container">
+            <div class="bee-container">
+                <span class="health-bar-info">Drone bees health</span>
+                <progress class="health-bar" id="drone-health" max="400" value="400"></progress>
+                <div class="drone-container"></div>
+            </div>
+            <div class="bee-container">
+                <span class="health-bar-info">Queen bee health</span>
+                <progress class="health-bar" id="boss-health" max="100" value="100"></progress>
+                <div class="bee-boss">
+                    <img alt="bee" src="/assets/bee.png">
+                </div>
+            </div>
+            <div class="bee-container">
+                <span class="health-bar-info">Workers bees health</span>
+                <progress class="health-bar" id="worker-health" max="375" value="375"></progress>
+                <div class="worker-container">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="game-statistics-container">
+        <h2>Game Progress</h2>
+        <div id="game-statistics"></div>
+        <button id="back-menu-button">Back to menu</button>
+    </div>
+</div>
+<script src="../dist/game.js" type="module"></script>
+</body>
+</html>

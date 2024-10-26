@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DRONE_DAMAGE_AMOUNT = exports.WORKER_DAMAGE_AMOUNT = exports.QUEEN_DAMAGE_AMOUNT = exports.DRONE_HEALTH = exports.WORKER_HEALTH = exports.QUEEN_HEALTH = exports.NUMBER_OF_DRONE_BEES = exports.NUMBER_OF_WORKER_BEES = exports.GUEST_NAME = void 0;
+exports.GUEST_NAME = 'Guest';
+exports.NUMBER_OF_WORKER_BEES = 5;
+exports.NUMBER_OF_DRONE_BEES = 8;
+exports.QUEEN_HEALTH = 100;
+exports.WORKER_HEALTH = 75;
+exports.DRONE_HEALTH = 50;
+exports.QUEEN_DAMAGE_AMOUNT = 8;
+exports.WORKER_DAMAGE_AMOUNT = 10;
+exports.DRONE_DAMAGE_AMOUNT = 12;

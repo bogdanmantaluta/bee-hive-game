@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1729948576835" clover="3.2.0">
+  <project timestamp="1729948576835" name="All files">
+    <metrics statements="117" coveredstatements="116" conditionals="24" coveredconditionals="23" methods="18" coveredmethods="18" elements="159" coveredelements="157" complexity="0" loc="117" ncloc="117" packages="3" files="9" classes="9"/>
+    <package name="components">
+      <metrics statements="87" coveredstatements="86" conditionals="20" coveredconditionals="19" methods="16" coveredmethods="16"/>
+      <file name="Bee.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\components\Bee.js">
+        <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="230" type="stmt"/>
+        <line num="7" count="230" type="stmt"/>
+        <line num="8" count="230" type="stmt"/>
+        <line num="9" count="230" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="56" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="DroneBee.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\components\DroneBee.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="128" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="QueenBee.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\components\QueenBee.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="Swarm.ts" path="C:\OTHER_PROJECTS\bee_hive_game\src\components\Swarm.ts">
+        <metrics statements="55" coveredstatements="55" conditionals="18" coveredconditionals="18" methods="10" coveredmethods="10"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="18" count="18" type="stmt"/>
+        <line num="19" count="18" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="42" count="16" type="stmt"/>
+        <line num="43" count="16" type="stmt"/>
+        <line num="44" count="16" type="stmt"/>
+        <line num="45" count="16" type="stmt"/>
+        <line num="46" count="80" type="stmt"/>
+        <line num="47" count="80" type="stmt"/>
+        <line num="48" count="80" type="stmt"/>
+        <line num="50" count="16" type="stmt"/>
+        <line num="51" count="128" type="stmt"/>
+        <line num="52" count="128" type="stmt"/>
+        <line num="53" count="128" type="stmt"/>
+        <line num="58" count="34" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="64" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="72" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="87" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="88" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="89" count="4" type="stmt"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="94" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="95" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="98" count="4" type="stmt"/>
+        <line num="102" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="103" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="106" count="2" type="stmt"/>
+      </file>
+      <file name="WorkerBee.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\components\WorkerBee.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="80" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="BeeTypes.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\models\BeeTypes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="BeeTypes.ts" path="C:\OTHER_PROJECTS\bee_hive_game\src\models\BeeTypes.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="constants.js" path="C:\OTHER_PROJECTS\bee_hive_game\src\utils\constants.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="constants.ts" path="C:\OTHER_PROJECTS\bee_hive_game\src\utils\constants.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
