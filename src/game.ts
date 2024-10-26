@@ -114,5 +114,4 @@ export function initializeGame(gameState: GameState | null): void {
             updateStateBees();
         }
     }
-    //updateUI(); adica initializare statistici si alte nebunii ( cred );
 }

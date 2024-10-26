@@ -102,6 +102,5 @@ function initializeGame(gameState) {
             updateStateBees();
         }
     }
-    //updateUI(); adica initializare statistici si alte nebunii ( cred );
 }
 exports.initializeGame = initializeGame;
