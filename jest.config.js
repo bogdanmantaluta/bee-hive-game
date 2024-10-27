@@ -1,7 +1,7 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} **/
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
+  testEnvironment: 'jest-environment-jsdom',
   moduleFileExtensions: ['ts', 'js'],
   transform: {
     '^.+\\.ts$': 'ts-jest',
@@ -14,5 +14,5 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.{ts,js}'],
   coverageDirectory: 'coverage',
-  coverageReporters: ['text', 'lcov'],
+  coverageReporters: ['text', 'lcov']
 };
