@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateHealthBars(swarm.workerBeesHealth, swarm.droneBeesHealth, swarm.bossBeeHealth);
 });
 (_a = document.getElementById('hit-button')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => {
-    console.log('change');
     const result = swarm.hitRandomBee();
     updateHealthBars(swarm.workerBeesHealth, swarm.droneBeesHealth, swarm.bossBeeHealth);
     animateBear();
